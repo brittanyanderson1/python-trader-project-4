@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Buy/Sell</h1>
+    <br/><br/>
+    <h2>Order Form</h2>
+    <form method="POST">
+        <select name="order type">
+            <option value="Select">Select Order Type</option>
+            <option value="Market">Market</option>
+            <option value="Select">Limit</option>
+            <option value="Select">Stop</option>
+            <option value="Stop Lomit">Stop Limit</option>
+        </select>
+            <input type="text" value="Ticker" name="Ticker">
+            <input type="number" value="0" name=""Quantity>
+            <input type="radio" value="Buy" name="side">
+            <input type="radio" value="Sell" name="side"> 
+            <input type="submit"/>
+    </form>
+</body>
+</html>
